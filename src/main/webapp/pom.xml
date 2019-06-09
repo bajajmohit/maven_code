@@ -7,7 +7,7 @@
   <groupId>com.coveros.demo</groupId>
   <artifactId>helloworld</artifactId>
   <version>1.0</version>
-  <packaging>jar</packaging>
+  <packaging>war</packaging>
 
   <name>Hello World</name>
   <description>The most basic of Java programs.</description>
@@ -27,7 +27,7 @@
       <plugin>
         <groupId>org.apache.maven.plugins</groupId>
         <artifactId>maven-compiler-plugin</artifactId>
-        <version>${maven.compiler.plugin.version}</version>
+	<version>${maven.compiler.plugin.version}</version>
         <configuration>
           <source>${jdk.version}</source>
           <target>${jdk.version}</target>
